@@ -1,0 +1,155 @@
+{
+  "adaptiveform": "0.10.0",
+  "items": [
+    {
+      "name": "name",
+      "type": "string",
+      "fieldType": "text-input",
+      "required": true,
+      "label": {
+        "value": "Name"
+      }
+    },
+    {
+      "name": "mobile",
+      "type": "number",
+      "fieldType": "number-input",
+      "required": true,
+      "label": {
+        "value": "Mobile Number"
+      }
+    },
+    {
+      "name": "address",
+      "type": "object",
+      "fieldType": "panel",
+      "items": [
+        {
+          "name": "address",
+          "type": "string",
+          "fieldType": "text-input",
+          "required": true,
+          "label": {
+            "value": "Address"
+          }
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "fieldType": "text-input",
+          "required": true,
+          "label": {
+            "value": "City"
+          }
+        },
+        {
+          "name": "state",
+          "fieldType": "drop-down",
+          "placeholder": "choose state",
+          "required": true,
+          "label": {
+            "value": "State"
+          },
+          "enumNames": [
+            "A",
+            "B",
+            "C"
+          ],
+          "enum": [
+            "0",
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "fieldType": "checkbox-group",
+      "required": true,
+      "label": {
+        "value": "Gender"
+      },
+      "enumNames": [
+        "Male",
+        "Female",
+        "Other"
+      ],
+      "enum": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "name": "address",
+      "fieldType": "radio-group",
+      "required": true,
+      "label": {
+        "value": "Address Type"
+      },
+      "enumNames": [
+        "Home",
+        "Office"
+      ],
+      "enum": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "commnet",
+      "type": "string",
+      "fieldType": "multiline-input",
+      "required": true,
+      "label": {
+        "value": "Commnets"
+      }
+    },
+    {
+      "name": "text",
+      "fieldType": "plain-text",
+      "value": "Plain Textttttttt"
+    },
+    {
+      "name": "password",
+      "type": "string",
+      "fieldType": "password-input",
+      "required": true,
+      "label": {
+        "value": "Password"
+      }
+    },
+    {
+      "name": "profilePic",
+      "type": "file[]",
+      "maxFileSize": "5MB",
+      "fieldType": "file-input",
+      "required": true,
+      "label": {
+        "value": "Upload Profile Image"
+      }
+    },
+    {
+      "name": "tnc",
+      "type": "boolean",
+      "fieldType": "checkbox",
+      "description": "tnc description",
+      "required": true,
+      "label": {
+        "value": "TNC"
+      }
+    },
+    {
+      "name": "submit",
+      "fieldType": "button",
+      "enabled": true,
+      "label": {
+        "value": "submit"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0"
+  }
+}
