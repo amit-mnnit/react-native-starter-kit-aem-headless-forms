@@ -53,10 +53,27 @@ const json = {...}
 <AdaptiveForm mappings={mappings} formJson={json} />
 ```
 
-## Fetch form definition from AEM
+## Fetch form definition from AEM Form Server
 
-If you are fetching the form definition from AEM, then please update the `constant.ts` file.
+When you fetch a form from AEM Forms Server, update the following in the `constant.ts` file.
+```
 
+//  set false to fetch form from AEM Forms Server
+export const USE_LOCAL_JSON = false;
+
+// URL of AEM Forms Server
+export const AEM_URL = '';
+
+For example,
+export const AEM_URL = 'http://localhost:4502';
+
+// Adaptive form path
+export const AEM_FORM_PATH = '';
+
+For example,
+export const AEM_FORM_PATH = 'content/forms/af/demo-form';
+
+```
 
 
 # Links
