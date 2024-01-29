@@ -23,6 +23,9 @@
       "name": "address",
       "type": "object",
       "fieldType": "panel",
+      "label": {
+        "value": "Current Address"
+      },
       "items": [
         {
           "name": "address",
@@ -134,7 +137,6 @@
       "name": "tnc",
       "type": "boolean",
       "fieldType": "checkbox",
-      "description": "tnc description",
       "required": true,
       "label": {
         "value": "TNC"

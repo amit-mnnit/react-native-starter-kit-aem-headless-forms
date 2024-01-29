@@ -53,6 +53,12 @@ const json = {...}
 <AdaptiveForm mappings={mappings} formJson={json} />
 ```
 
+## Fetch form definition from AEM
+
+If you are fetching the form definition from AEM, then please update the `constant.ts` file.
+
+
+
 # Links
 1. [Story book](https://opensource.adobe.com/aem-forms-af-runtime/storybook)
 2. [HTTP API Docs](https://opensource.adobe.com/aem-forms-af-runtime/api)
