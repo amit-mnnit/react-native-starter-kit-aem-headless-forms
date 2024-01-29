@@ -6,9 +6,11 @@ This application is built to consume the form model definition of an adaptive fo
 
 ## System Requirements
 
-* Latest release of GIT
+* Latest version of GIT
 
 * Node.js 16.13.0 or later
+
+* To install Xcode, Android Studio, react native, and other dependencies, follow this [link](https://reactnative.dev/docs/environment-setup)
 
 
 ## Start your Application
